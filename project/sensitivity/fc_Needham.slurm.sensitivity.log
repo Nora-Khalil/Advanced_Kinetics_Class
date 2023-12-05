@@ -1,0 +1,59 @@
+YF_Mech_Final.cti
+The initial species mole fractions are: {'CH2CFCF3': 0.4, 'O2': 1, 'N2': 1.56}
+/work/westgroup/nora/Code/Advanced_Kinetics_Class/project/models/Needham_model/YF_Mech_Final-name_edits.cti
+CanteraWarning: NasaPoly2::validate: 
+For species CH2OCH, discontinuity in cp/R detected at Tmid = 500.0
+	Value computed using low-temperature polynomial:  8.393471510000001
+	Value computed using high-temperature polynomial: 9.1801039121875
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH2OCH, discontinuity in h/RT detected at Tmid = 500.0
+	Value computed using low-temperature polynomial:  42.199147089791666
+	Value computed using high-temperature polynomial: 41.961461604875005
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH2OCH, discontinuity in s/R detected at Tmid = 500.0
+	Value computed using low-temperature polynomial:  33.70692865946735
+	Value computed using high-temperature polynomial: 33.51209988778391
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H5-2, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  47.65235236593109
+	Value computed using high-temperature polynomial: 48.43623165666667
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H5-2, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  52.42918829260522
+	Value computed using high-temperature polynomial: 54.320817046995025
+
+CanteraWarning: NasaPoly2::validate: 
+For species C2H3CHOCH2, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  13.197490232436893
+	Value computed using high-temperature polynomial: 13.009458623333332
+
+CanteraWarning: NasaPoly2::validate: 
+For species C2H3CHOCH2, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  55.5754926344824
+	Value computed using high-temperature polynomial: 53.05298769454252
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH3CHCHCHO, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  -0.87553076770625
+	Value computed using high-temperature polynomial: -0.7952995433333321
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH3CHCHCHO, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  59.194456477008444
+	Value computed using high-temperature polynomial: 62.495269678449205
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H6-2, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  28.072393266570767
+	Value computed using high-temperature polynomial: 28.60292515
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H6-2, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  50.25139828976554
+	Value computed using high-temperature polynomial: 51.51521152074738
+
+CanteraWarning: Troe::init: Unexpected parameter value T2=0. Omitting exp(T2/T) term from falloff expression. To suppress this warning, remove value for T2 from the input file. In the unlikely case that the exp(T2/T) term should be included with T2 effectively equal to 0, set T2 to a sufficiently small value (i.e. T2 < 1e-16).

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/work/westgroup/nora/Code/Advanced_Kinetics_Class/project/sensitivity/sensitivity_parallel.py", line 58, in <module>
+    f.solve()
+  File "/home/khalil.nor/.conda/envs/cantera_env/lib/python3.9/site-packages/cantera/onedim.py", line 866, in solve
+    return super().solve(loglevel, refine_grid, auto)
+  File "interfaces/cython/cantera/onedim.pyx", line 1143, in cantera._cantera.Sim1D.solve
+cantera._cantera.CanteraError: 
+***********************************************************************
+CanteraError thrown by OneDim::timeStep:
+Took maximum number of timesteps allowed (500) without reaching steady-state solution.
+***********************************************************************
+
