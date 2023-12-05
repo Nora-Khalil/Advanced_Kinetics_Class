@@ -1,0 +1,248 @@
+Running Cantera Version: 2.5.1
+CanteraWarning: NasaPoly2::validate: 
+For species CH2OCH, discontinuity in cp/R detected at Tmid = 500.0
+	Value computed using low-temperature polynomial:  8.393471510000001
+	Value computed using high-temperature polynomial: 9.1801039121875
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH2OCH, discontinuity in h/RT detected at Tmid = 500.0
+	Value computed using low-temperature polynomial:  42.199147089791666
+	Value computed using high-temperature polynomial: 41.961461604875005
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH2OCH, discontinuity in s/R detected at Tmid = 500.0
+	Value computed using low-temperature polynomial:  33.70692865946735
+	Value computed using high-temperature polynomial: 33.51209988778391
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H5-2, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  47.65235236593109
+	Value computed using high-temperature polynomial: 48.43623165666667
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H5-2, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  52.42918829260522
+	Value computed using high-temperature polynomial: 54.320817046995025
+
+CanteraWarning: NasaPoly2::validate: 
+For species C2H3CHOCH2, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  13.197490232436893
+	Value computed using high-temperature polynomial: 13.009458623333332
+
+CanteraWarning: NasaPoly2::validate: 
+For species C2H3CHOCH2, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  55.5754926344824
+	Value computed using high-temperature polynomial: 53.05298769454252
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH3CHCHCHO, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  -0.87553076770625
+	Value computed using high-temperature polynomial: -0.7952995433333321
+
+CanteraWarning: NasaPoly2::validate: 
+For species CH3CHCHCHO, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  59.194456477008444
+	Value computed using high-temperature polynomial: 62.495269678449205
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H6-2, discontinuity in h/RT detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  28.072393266570767
+	Value computed using high-temperature polynomial: 28.60292515
+
+CanteraWarning: NasaPoly2::validate: 
+For species C4H6-2, discontinuity in s/R detected at Tmid = 1000.0
+	Value computed using low-temperature polynomial:  50.25139828976554
+	Value computed using high-temperature polynomial: 51.51521152074738
+
+CanteraWarning: Troe::init: Unexpected parameter value T2=0. Omitting exp(T2/T) term from falloff expression. To suppress this warning, remove value for T2 from the input file. In the unlikely case that the exp(T2/T) term should be included with T2 effectively equal to 0, set T2 to a sufficiently small value (i.e. T2 < 1e-16).
+
+..............................................................................
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.708e-08      8.557
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     5.279e-08      8.565
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     6.682e-08       8.04
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.141e-07      7.592
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     8.572e-08      7.239
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.197e-06      6.954
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.877e-05       5.82
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.321e-07       5.82
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     7.618e-06      5.809
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.681e-08      5.649
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.546e-06      5.641
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.814e-09      5.511
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.046e-07      5.511
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.945e-09      5.504
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.132e-07      5.503
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps      2.55e-08      5.503
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.471e-06      5.495
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.313e-07      5.402
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.866e-08      5.402
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.076e-06      5.397
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.786e-09      5.317
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.183e-07      5.316
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.259e-05      5.262
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     4.431e-08      5.255
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.555e-06      5.244
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     5.996e-09      5.231
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.458e-07      5.229
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     4.868e-09      5.206
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.807e-07      5.205
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.976e-09      5.181
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.139e-07       5.18
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps      4.38e-06      5.159
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     6.167e-08      5.159
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps      1.58e-06      5.148
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.225e-08      5.137
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.283e-06      5.132
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     4.516e-09      5.116
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.604e-07      5.115
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.754e-06      5.072
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     5.285e-08      5.071
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.048e-06       5.06
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     5.363e-09      5.055
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.093e-07      5.054
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.229e-06      5.014
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.138e-08      5.012
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps      1.81e-06      5.006
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     8.493e-09      4.972
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.265e-07      4.971
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.298e-09      4.963
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.325e-07      4.963
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.547e-06      4.967
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.586e-08      4.967
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.068e-06      4.969
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.456e-08      4.971
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     8.395e-07      4.972
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.477e-09      4.981
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     8.519e-08      4.981
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.456e-06      4.986
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.458e-08      4.986
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.994e-06      4.988
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     7.018e-09      4.997
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     4.047e-07      4.997
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.849e-09      5.001
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.643e-07      5.001
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.974e-07      5.005
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.223e-08      5.005
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.282e-06      5.006
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.804e-08      5.008
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.041e-06      5.009
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.831e-09      5.012
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.056e-07      5.012
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.537e-07      5.016
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.429e-08      5.016
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     8.239e-07      5.017
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps      1.16e-08      5.019
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     6.688e-07       5.02
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     4.708e-09      5.023
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.715e-07      5.023
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     9.555e-10      5.033
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps      5.51e-08      8.006
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.118e-06      9.071
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     3.619e-05      8.948
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     4.581e-05       6.33
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     9.662e-06      6.053
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     0.0001651      5.042
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.102e-11      3.342
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     8.079e-10      3.342
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     2.427e-10      3.341
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps     1.822e-11      3.341
+Attempt Newton solution of steady-state problem...    failure. 
+Take 10 timesteps   ********************passed phi:1.0, error: 
+***********************************************************************
+CanteraError thrown by OneDim::timeStep:
+Took maximum number of timesteps allowed (900) without reaching steady-state solution.
+***********************************************************************
+*************************************
+Phis are:
+[]
+flame speeds are:
+[]
