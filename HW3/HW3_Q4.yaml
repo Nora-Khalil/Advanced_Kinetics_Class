@@ -1,0 +1,72 @@
+description: |-
+  HW3 Question 1 YAML file. 
+
+generator: manual
+date: Fri, 6 Oct 2023 
+
+units: {length: cm, time: s, quantity: mol, activation-energy: cal/mol}
+
+phases:
+- name: gas
+  thermo: ideal-gas
+  elements: [H, C, N, O, Ar]
+  species: [cyclohexyl, hexen_6_yl, NO, acyclic_nitroso_product, Argon]
+  kinetics: gas
+
+species:
+- name: hexen_6_yl
+  composition: {C: 6, H: 11}
+  thermo:
+    model: NASA7
+    temperature-ranges: [298, 1755.73, 5000]
+    data:
+    - [-0.382061,0.064079,-4.11571e-05,1.34115e-08,-1.75369e-12,17245.2,33.7267]
+    - [16.6205,0.0261098,-9.36056e-06,1.57717e-09,-1.01944e-13,11154.2,-58.2113]
+    
+- name: cyclohexyl
+  composition: {C: 6, H: 11}
+  thermo:
+    model: NASA7
+    temperature-ranges: [298, 1791.19, 5000]
+    data:
+    - [-5.18775,0.0677176,-2.83289e-05,-7.01326e-10,2.34008e-12,5782.56,50.6646]
+    - [55.7201,-0.0223193,6.96412e-06,1.70478e-09,-2.53343e-13,-23115.2,-298.852]
+    
+- name: acyclic_nitroso_product
+  composition: {C: 6, H: 11, N: 1, O: 1}
+  thermo:
+    model: NASA7
+    temperature-ranges: [298, 1907.71, 5000]
+    data:
+    - [2.00092,0.0662461,-4.07268e-05,1.25436e-08,-1.54144e-12,8627.5,24.589]
+    - [21.1433,0.0261096,-9.16856e-06,1.51538e-09,-9.62425e-14,1323.79,-80.1264]
+    
+- name: NO 
+  composition: {N: 1, O: 1}
+  thermo:
+    model: NASA7   
+    temperature-ranges: [298, 1758.58, 5000]
+    data:
+    - [3.46128,-0.00040274,2.1655e-06,-1.54106e-09,3.42284e-13,9965.53,4.98532]
+    - [4.19717,0.000330327,-5.12744e-07,2.52516e-10,-2.33289e-14,9334.53,-0.0384739]
+    
+- name: Argon
+  composition: {Ar: 1}
+  thermo:
+    model: NASA7   
+    temperature-ranges: [200, 1000, 6000]
+    data:
+    - [2.5,0,0,0,0,-745.375,4.37967]
+    - [2.5,0,0,0,0,-745.375,4.37967]
+    
+reactions: 
+
+- equation: hexen_6_yl <=> cyclohexyl  
+  rate-constant: {A: 6.03e+12, b: 0.07, Ea: 27983} #this is from the JetSurf
+  
+    
+- equation:  hexen_6_yl + NO <=> acyclic_nitroso_product
+  rate-constant: {A: 1e+13, b: 0.0, Ea: 0}
+    
+
+

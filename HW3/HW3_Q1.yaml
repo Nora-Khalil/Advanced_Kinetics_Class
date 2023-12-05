@@ -1,0 +1,43 @@
+description: |-
+  HW3 Question 1 YAML file. 
+
+generator: manual
+date: Fri, 6 Oct 2023 
+
+units: {length: cm, time: s, quantity: mol, activation-energy: cal/mol}
+
+phases:
+- name: gas
+  thermo: ideal-gas
+  elements: [H, C]
+  species: [cyclohexyl, hexen_6_yl]
+  kinetics: gas
+
+species:
+- name: hexen_6_yl
+  composition: {C: 6, H: 11}
+  thermo:
+    model: NASA7
+    temperature-ranges: [298, 1755.73, 5000]
+    data:
+    - [-0.382061,0.064079,-4.11571e-05,1.34115e-08,-1.75369e-12,17245.2,33.7267]
+    - [16.6205,0.0261098,-9.36056e-06,1.57717e-09,-1.01944e-13,11154.2,-58.2113]
+    
+- name: cyclohexyl
+  composition: {C: 6, H: 11}
+  thermo:
+    model: NASA7
+    temperature-ranges: [298, 1791.19, 5000]
+    data:
+    - [-5.18775,0.0677176,-2.83289e-05,-7.01326e-10,2.34008e-12,5782.56,50.6646]
+    - [55.7201,-0.0223193,6.96412e-06,1.70478e-09,-2.53343e-13,-23115.2,-298.852]
+    
+    
+reactions: 
+
+- equation: hexen_6_yl <=> cyclohexyl  
+  rate-constant: {A: 4.577e+19, b: -1.4, Ea: 1.044e+05} #this is fake, was added so that I could write this reaction in the yaml file
+    
+    
+
+
